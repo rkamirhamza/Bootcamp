@@ -1,0 +1,406 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	text-align: center;
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+
+.header-section{
+	padding:0px 60px;
+	background: green;
+
+}
+
+.navbar-brand img{
+	width: 70px;
+	height: 70px;
+	    margin-left: 24px;
+}
+.header-section .nav-link{
+	text-transform: uppercase;
+	color:#fff !important;
+	text-align: center ;
+	transition: 0.5s;
+	font-weight:600;
+}
+
+.header-section .nav-link:hover{
+		color: #f2095b !important;
+	transition: 0.5s;
+}
+
+
+
+
+.banner-section{
+	background: darkcyan;
+	width: 100%;
+	height: 100%;
+}
+
+.banner-section h1{
+	margin-top: 140px;
+	text-transform: capitalize;
+	font-size: 68px;
+	font-weight: 500;
+	color: #fff;
+     margin-left: 30px;
+     text-align: left;
+}
+
+.banner-section .pra p{
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 30px;
+	color:white;
+	padding-left: 34px;
+	margin-bottom: 40px;
+}
+
+.banner-section a{
+  text-decoration: none;
+  text-transform: uppercase;
+  background: lightcyan;
+  color: blue;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.2s;
+  margin-left: 33px;
+  font-weight: 700;
+  
+}
+
+.banner-section a:hover{
+	background:gray;
+	font-weight: 800;
+	transition: 0.2s;
+	color: green;
+}
+
+.banner-section img{
+	padding: 50px 0px 50px 50px;
+	width: 800px;
+	height: auto;
+
+}
+
+
+
+
+
+
+.information{
+	text-align: center;
+	background: white;
+	
+}
+
+.information h4{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.information .content{
+	margin-bottom: 20px;
+}
+
+.information .content h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: black;
+	margin-top: 60px;
+	text-transform: capitalize;
+}
+
+.information .content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	margin-top: 30px;
+	text-transform: capitalize;
+}
+
+.information .part{
+	 margin: 10px;
+	 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   transition: 0.5s;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.information .part:hover{
+	 margin: 10px;
+   box-shadow: none;
+   transition:0.5s;
+}
+.information .part img{
+	margin-top: 50px;
+	margin-bottom: 30px;
+     width: 85%;
+}
+
+.information .part h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.information .pg p{
+	padding: 10px 30px 30px 30px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+
+
+
+.icon-section .content{
+	text-align: center;
+	margin-top: 90px;
+
+}
+
+.icon-section h2{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.icon-section p{
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+
+.icon-section{
+	padding-bottom: 40px;
+	text-align: center;
+	background:#E1F4E9;
+
+}
+
+.icon-section  .icon-box{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: 8px 2px 20px 2px;
+	padding: 5px 20px;
+	text-align: center;
+
+}
+
+
+.icon-section  .icon-box:hover{
+
+   box-shadow: none;
+   transition:0.5s;
+}
+.icon-section  i{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	    font-size: 40px;
+}
+
+.icon-section .icon-box h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+.icon-section .icon-box p{
+	text-transform: capitalize;
+	font-size: 14px;
+  padding-left: 11px;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+
+
+
+.form-section{
+text-align: center;
+padding: 70px 0 70px 0;
+}
+
+.form-section .formone{
+	width: 75%;
+	margin: auto;
+}
+
+.form-section .formone input{
+	width: 90%;
+	padding: 20px 10px;
+	background: transparent;
+	margin-bottom: 15px;
+	border: none;
+	color: black;
+	border-bottom: 1px solid darkgray;
+}
+
+.form-section .button {
+	text-align: center;
+	margin-top: 30px;
+	text-align: right;
+}
+
+
+.form-section .button .btn-primary{
+	padding: 8px 65px;
+	border-radius: 2px solid blue;
+	background: darkgreen;
+	color: white;
+	border: blue;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.form-section .button .btn-primary:hover{
+	background: darkcyan;
+	color: blue;
+}
+
+
+
+
+.about{
+background: ghostwhite;
+margin-top: 30px;
+padding: 30px;
+
+}
+
+.about h3{
+	margin-top:140px ;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: right;
+}
+
+.about p{
+	font-size: 14px;
+	margin-top: 20px;
+	text-align: justify;
+	
+}
+
+.about img{
+	width: 60%;
+	height: auto;
+	margin: 30px;
+}
+
+
+
+
+
+.footer-section{
+	background: lightgray;
+	padding-top: 20px;
+}
+.footer-section .logo-part {
+	
+
+}
+.footer-section .logo-part img{
+	width: 25%;
+	height: auto;
+margin: 20px 0px 0 -5px;
+
+}
+.footer-section .logo-part h1{
+font-size: 18px;
+font-weight: 600;
+margin-top: 20px;
+text-align: left!important;
+margin: 20px 50px 0 0px;
+	}
+
+	.footer-section .logo-part p{
+font-size: 16px;
+font-weight: 400;
+margin: 20px 50px 0 00px;
+	}
+
+.footer-section .icon-part{
+	    margin-top: 60px;
+       text-align: center;
+}
+.footer-section .icon-part ul{
+
+}
+
+.footer-section .icon-part ul li{
+	display: inline-block;
+	 margin-right: 15px;
+	 margin-left: 15px;
+	 margin-bottom: 20px;
+}
+	
+.footer-section .icon-part i{
+	font-size: 30px;
+	transition: .5s;
+}
+
+.footer-section .icon-part i:hover{
+	color:blue;
+	transition: .5s;
+}
+
+.footer-section .copyright{
+
+}
+
+.footer-section h5{
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 40px;
+	text-align: left;
+}
+
+.footer-section ul{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.footer-section ul li{
+
+}
+
+.footer-section .copyright p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+}
